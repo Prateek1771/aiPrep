@@ -1,0 +1,14 @@
+atmost important is to create the file structure where it consists of the files like:
+    - components  --- where all the components for tge project are built and used.
+    - constants --- where all the constant values and mentioned
+    - exceptions --- where there come codes which does not follow the treditional follow
+    - logging --- where it creates a log of the entire process, what happens, where and when
+    - utils -- where it consists of the tools or the code used repeatedly, like usage of spoon foe eating various food items
+
+where u can automate this process refer: projectStructure.py
+
+u can use its another way of creating multiple file structures cookie cutter 
+    - pip install cookiecutter
+    - cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
+
+to get the loging details of the project refer: logging.py

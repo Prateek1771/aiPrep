@@ -1,0 +1,13 @@
+to create a environment: 
+    - conda create -p venv python==3.12  --- will create env in present working directory
+    - conda create -n venv python==3.12  --- will take the python lib in the conda 
+
+to activate the env 
+    - conda activate __file_loc__
+
+to install all the multiple requirements from the requirements.txt file
+    - pip install -r requirements.txt  --- -r means read mode
+
+some folders contains the file like __init__.py, which basically converts the entire folder into a package, where u can use it anywhere in the project
+
+to publish your own packages where anyone can see and use: https://www.youtube.com/live/4s7mOZ07tBc?si=Ihy5lJCIF98_QPzO&t=2858 
